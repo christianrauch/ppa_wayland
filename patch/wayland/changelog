@@ -1,0 +1,5 @@
+wayland (1.18.0-1) bionic; urgency=medium
+
+  * upstream release 1.18.0
+
+ -- Christian Rauch <Rauch.Christian@gmx.de>  Wed, 12 Feb 2020 11:08:11 +0100

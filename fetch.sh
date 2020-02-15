@@ -20,3 +20,9 @@ git clone --depth 1 https://github.com/swaywm/sway.git -b 1.4
 
 rm -r swaybg
 wget -qO- http://deb.debian.org/debian/pool/main/s/swaybg/swaybg_1.0.orig.tar.gz | tar xz --one-top-level=swaybg --strip-components 1
+
+rm -rf pipewire
+git clone --depth 1 https://salsa.debian.org/utopia-team/pipewire.git -b debian/0.2.7-1
+
+rm -rf weston
+git clone --depth 1 https://salsa.debian.org/xorg-team/wayland/weston.git -b weston-8.0.0-1

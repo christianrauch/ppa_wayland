@@ -1,0 +1,5 @@
+json-c (0.13.1+dfsg-6) bionic; urgency=high
+
+  * upstream release 0.13.1
+
+ -- Christian Rauch <Rauch.Christian@gmx.de>  Tue, 24 Sep 2019 10:12:44 -0400

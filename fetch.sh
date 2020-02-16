@@ -17,3 +17,6 @@ git clone --depth 1 https://salsa.debian.org/debian/json-c.git -b debian/0.13.1+
 
 rm -rf sway
 git clone --depth 1 https://github.com/swaywm/sway.git -b 1.4
+
+rm -r swaybg
+wget -qO- http://deb.debian.org/debian/pool/main/s/swaybg/swaybg_1.0.orig.tar.gz | tar xz --one-top-level=swaybg --strip-components 1

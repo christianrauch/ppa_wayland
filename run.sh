@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-PACKAGES=("wayland" "wayland-protocols" "meson" "wlroots" "json-c" "sway")
+PACKAGES=("wayland" "wayland-protocols" "meson" "wlroots" "json-c" "sway" "swaybg")
 
 # patch changelog
 for p in ${PACKAGES[@]}; do

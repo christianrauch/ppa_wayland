@@ -1,0 +1,32 @@
+Source: swaybg
+Section: x11
+Priority: optional
+Maintainer: Sway and related packages team <team+swaywm@tracker.debian.org>
+Uploaders: Birger Schacht <birger@rantanplan.org>,
+           Nicolas Braud-Santoni <nicoo@debian.org>
+Build-Depends:
+ debhelper-compat (= 12),
+ meson (>=0.48),
+ libwayland-dev,
+ wayland-protocols (>=1.14),
+ libcairo2-dev,
+ libgdk-pixbuf2.0-dev,
+ pkgconf,
+ scdoc
+Standards-Version: 4.4.0
+Homepage: https://github.com/swaywm/swaybg
+Vcs-Browser: https://salsa.debian.org/swaywm-team/swaybg
+Vcs-Git: https://salsa.debian.org/swaywm-team/swaybg.git
+Rules-Requires-Root: no
+
+Package: swaybg
+Architecture: any
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends}
+Replaces: sway (<< 1.1~rc1)
+Breaks: sway (<< 1.1~rc1)
+Description: Wallpaper utility for Wayland compositors
+ swaybg is a wallpaper utility for Wayland compositors. It is compatible with
+ any Wayland compositor which implements the following Wayland protocols:
+ wlr-layer-shell, xdg-output, xdg-shell

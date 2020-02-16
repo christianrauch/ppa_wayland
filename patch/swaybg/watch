@@ -1,0 +1,4 @@
+version=4
+opts=pgpsigurlmangle=s/archive\/(\d\S+)\.tar\.gz/releases\/download\/$1\/swaybg-$1\.tar\.gz\.sig/,\
+filenamemangle=s/.+\/(\d\S+)\.tar\.gz/swaybg-$1\.tar\.gz/ \
+https://github.com/swaywm/swaybg/releases .*/(\d\S+)\.tar\.gz

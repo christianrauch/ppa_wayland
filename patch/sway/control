@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Sway and related packages team <team+swaywm@tracker.debian.org>
 Uploaders: Birger Schacht <birger@rantanplan.org>,
            Nicolas Braud-Santoni <nicoo@debian.org>
-Build-Depends: debhelper-compat (>= 11),
+Build-Depends: debhelper-compat (= 11),
                libcairo2-dev,
                libcap-dev,
                libdbus-1-dev (>= 1.10),
@@ -16,14 +16,12 @@ Build-Depends: debhelper-compat (>= 11),
                libpango1.0-dev,
                libpcre3-dev,
                libpixman-1-dev,
-               libsystemd-dev (>= 239) | libelogind-dev (>= 239),
                libwayland-dev,
                libwayland-egl1,
                libwlroots-dev (>= 0.10.0),
                libxkbcommon-dev,
                meson (>=0.48),
                pkgconf,
-               scdoc (>= 1.9.2),
                tree,
                wayland-protocols (>= 1.14)
 Standards-Version: 4.5.0

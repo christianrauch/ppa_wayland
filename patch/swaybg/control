@@ -5,14 +5,13 @@ Maintainer: Sway and related packages team <team+swaywm@tracker.debian.org>
 Uploaders: Birger Schacht <birger@rantanplan.org>,
            Nicolas Braud-Santoni <nicoo@debian.org>
 Build-Depends:
- debhelper-compat (= 12),
+ debhelper-compat (= 11),
  meson (>=0.48),
  libwayland-dev,
  wayland-protocols (>=1.14),
  libcairo2-dev,
  libgdk-pixbuf2.0-dev,
  pkgconf,
- scdoc
 Standards-Version: 4.4.0
 Homepage: https://github.com/swaywm/swaybg
 Vcs-Browser: https://salsa.debian.org/swaywm-team/swaybg

@@ -1,16 +1,6 @@
-swaybg (1.0-2) unstable; urgency=medium
+swaybg (1.0-2) bionic; urgency=medium
 
-  * d/control:
-   + Set maintainer field to new team address and add nicoo to
-     uploaders
-   + Point Vcs-* fields to the new repository in the swaywm-team
-     salsa group
-   + Bump standards version to 4.4.0
+  * upstream release 1.0
 
- -- Birger Schacht <birger@rantanplan.org>  Fri, 26 Jul 2019 09:33:32 +0200
+ -- Christian Rauch <Rauch.Christian@gmx.de>  Fri, 26 Jul 2019 09:33:32 +0200
 
-swaybg (1.0-1) unstable; urgency=medium
-
-  * Initial packaging (Closes: #928403)
-
- -- Birger Schacht <birger@rantanplan.org>  Sat, 18 May 2019 22:08:50 +0200

@@ -4,7 +4,7 @@ Section: devel
 Priority: optional
 Standards-Version: 4.4.1
 Homepage: https://mesonbuild.com
-X-Python3-Version: >= 3.7
+X-Python3-Version: >= 3.5
 Rules-Requires-Root: no
 Build-Depends: debhelper (>= 11),
   python3:any (>= 3.5),

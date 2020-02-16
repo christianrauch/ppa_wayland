@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 
-PACKAGES=("wayland" "wayland-protocols" "wlroots")
+PACKAGES=("wayland" "wayland-protocols" "meson" "wlroots")
 
 # patch changelog
 for p in ${PACKAGES[@]}; do
    echo $p
-   cp patch/${p}/* ${p}/debian/
+   mkdir -p ${p}/debian/
+   cp -rf patch/${p}/* ${p}/debian/
 done
 
 # build source packages

@@ -15,3 +15,5 @@ git clone --depth 1 https://salsa.debian.org/swaywm-team/wlroots.git -b debian/0
 rm -rf json-c
 git clone --depth 1 https://salsa.debian.org/debian/json-c.git -b debian/0.13.1+dfsg-6
 
+rm -r sway
+wget -qO- http://deb.debian.org/debian/pool/main/s/sway/sway_1.4.orig.tar.gz | tar xz --one-top-level=sway --strip-components 1

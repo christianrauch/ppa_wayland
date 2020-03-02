@@ -4,7 +4,7 @@ rm -rf wayland
 git clone --depth 1 https://salsa.debian.org/xorg-team/wayland/wayland.git -b wayland-1.18.0-1
 
 rm -rf wayland-protocols
-git clone --depth 1 https://salsa.debian.org/xorg-team/wayland/wayland-protocols.git -b wayland-protocols-1.18-1
+git clone --depth 1 https://salsa.debian.org/xorg-team/wayland/wayland-protocols.git -b wayland-protocols-1.20-1
 
 rm -r meson
 wget -qO- http://deb.debian.org/debian/pool/main/m/meson/meson_0.53.1.orig.tar.gz | tar xz --one-top-level=meson --strip-components 1

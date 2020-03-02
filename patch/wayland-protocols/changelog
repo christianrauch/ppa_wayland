@@ -1,3 +1,9 @@
+wayland-protocols (1.20-2) bionic; urgency=medium
+
+  * upstream release 1.20
+
+ -- Christian Rauch <Rauch.Christian@gmx.de>  Mon, 02 Mar 2020 10:38:22 +0100
+
 wayland-protocols (1.18-5) bionic; urgency=medium
 
   * upstream release 1.18
